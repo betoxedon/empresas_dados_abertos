@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "empresas"
+version = "0.1.0"
+description = ""
+authors = ["betoxedon <betoxedon@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.3"
+jupyter = "^1.0.0"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+sqlalchemy = "^2.0.29"
+psycopg2 = "^2.9.9"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
